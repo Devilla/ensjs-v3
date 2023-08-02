@@ -1,4 +1,4 @@
-export type SupportedNetworkId = '1' | '3' | '4' | '5' | '1337'
+export type SupportedNetworkId = '10' | '5'
 
 export type ContractName =
   | 'BaseRegistrarImplementation'

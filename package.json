@@ -1,12 +1,11 @@
 {
-  "name": "ensjs-monorepo",
-  "private": true,
+  "name": "@devilla/onsjs",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "publish:local:ens-test-env": "yalc publish packages/ens-test-env --push --up",
-    "publish:local:ensjs": "yalc publish packages/ensjs --push --up"
+    "publish:local:onsjs": "yalc publish packages/onsjs --push --up"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",

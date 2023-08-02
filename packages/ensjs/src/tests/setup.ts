@@ -44,15 +44,14 @@ const createENS = async (
 export default async (useReal?: boolean) => {
   const { graphURI, providerURI, chainId } = useReal
     ? {
-        graphURI:
-          'https://api.thegraph.com/subgraphs/name/ensdomains/ensgoerli',
+        graphURI: 'https://api.thegraph.com/subgraphs/name/grmkris/op-ens',
         providerURI: 'https://web3.ens.domains/v1/goerli',
         chainId: 5,
       }
     : {
-        graphURI: 'http://localhost:8000/subgraphs/name/graphprotocol/ens',
-        providerURI: 'http://localhost:8545',
-        chainId: 1337,
+        graphURI: 'https://api.thegraph.com/subgraphs/name/opnamesdev/ons',
+        providerURI: 'https://mainnet.optimism.io',
+        chainId: 10,
       }
   const provider = new ethers.providers.StaticJsonRpcProvider(
     providerURI,

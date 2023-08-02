@@ -80,7 +80,8 @@ export const graphURIEndpoints: Record<string, string> = {
   1: 'https://api.thegraph.com/subgraphs/name/ensdomains/ens',
   3: 'https://api.thegraph.com/subgraphs/name/ensdomains/ensropsten',
   4: 'https://api.thegraph.com/subgraphs/name/ensdomains/ensrinkeby',
-  5: 'https://api.thegraph.com/subgraphs/name/ensdomains/ensgoerli',
+  5: 'https://api.thegraph.com/subgraphs/name/grmkris/op-ens',
+  10: 'https://api.thegraph.com/subgraphs/name/opnamesdev/ons',
 }
 /* eslint-enable @typescript-eslint/naming-convention */
 
