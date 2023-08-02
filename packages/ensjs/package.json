@@ -1,5 +1,5 @@
 {
-  "name": "@opdomains/onsjs",
+  "name": "@devilla/onsjs",
   "version": "3.0.0-alpha.65",
   "description": "ENS javascript library for contract interaction",
   "main": "./dist/cjs/index.js",
@@ -55,7 +55,7 @@
     "src/",
     "!src/tests"
   ],
-  "repository": "git@github.com:opdomains/onsjs-v3.git",
+  "repository": "git@github.com:devilla/onsjs.git",
   "author": "TateB <yo@taytems.xyz>",
   "license": "MIT",
   "scripts": {
